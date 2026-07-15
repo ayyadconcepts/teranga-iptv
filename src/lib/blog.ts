@@ -123,7 +123,7 @@ export const articles: BlogArticle[] = [
         id: 'definition-iptv',
         title: 'IPTV : définition simple et fonctionnement',
         content: `<p><strong>L'IPTV (Internet Protocol Television)</strong> est une technologie qui permet de regarder la télévision en utilisant votre connexion Internet au lieu d'une antenne parabolique ou d'un câble coaxial. En termes simples : <strong>votre Wi-Fi ou votre 4G remplace l'antenne</strong>.</p>
-<p>Au lieu de recevoir le signal TV par satellite (comme Canal+ Horizons) ou par câble, le flux vidéo arrive directement sur votre appareil via le même réseau Internet que celui que vous utilisez pour WhatsApp, YouTube ou Facebook. C'est la même technologie qu'utilisent Netflix, YouTube et toutes les plateformes de streaming — mais appliquée à la télévision en direct.</p>
+<p>Au lieu de recevoir le signal TV par satellite ou par câble, le flux vidéo arrive directement sur votre appareil via le même réseau Internet que celui que vous utilisez pour vos applications. C'est la même technologie qu'utilisent les plateformes de streaming — mais appliquée à la télévision en direct.</p>
 <p>Concrètement, quand vous regardez une chaîne en IPTV, le signal passe par ces étapes :</p>
 <ol>
 <li>Le contenu est capté par le fournisseur IPTV depuis les sources de diffusion</li>
@@ -191,7 +191,7 @@ export const articles: BlogArticle[] = [
     faq: [
       { question: 'L\'IPTV fonctionne-t-il sans Internet ?', answer: 'Non, l\'IPTV nécessite une connexion Internet active. C\'est le principe même de la technologie : le signal TV passe par Internet au lieu d\'une antenne. Une connexion 4G ou Wi-Fi suffit.' },
       { question: 'Est-ce que l\'IPTV consomme beaucoup de données ?', answer: 'En HD, l\'IPTV consomme environ 1,5 à 3 Go par heure. En 4K, comptez 7 Go par heure. Si vous avez un forfait data limité, nous recommandons de vous connecter en Wi-Fi à la maison.' },
-      { question: 'L\'IPTV remplace-t-il Netflix et Canal+ ?', answer: 'Avec un abonnement IPTV, vous avez accès à tout le contenu de ces plateformes et bien plus encore — le tout dans une seule application. Plus besoin de payer plusieurs abonnements séparés.' },
+      { question: 'L\'IPTV remplace-t-il les abonnements de streaming et satellite ?', answer: 'Avec un abonnement IPTV, vous avez accès à tout le contenu des plateformes de streaming et bouquets satellites — le tout dans une seule application. Plus besoin de payer plusieurs abonnements séparés.' },
       { question: 'Faut-il acheter un appareil spécial pour l\'IPTV ?', answer: 'Non. L\'IPTV fonctionne sur votre Smart TV, votre téléphone, votre tablette ou votre PC. Si votre TV n\'est pas "smart", vous pouvez acheter une Android Box ou un Fire Stick pour moins de 15 000 FCFA.' }
     ],
     relatedSlugs: ['comment-installer-iptv', 'iptv-smarters-pro-guide', 'iptv-gratuit-vs-payant']
