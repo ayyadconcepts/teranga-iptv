@@ -27,7 +27,7 @@ export default function OffersGrid() {
 
 
         {/* 4 Plans - same row */}
-        <div className="mx-auto max-w-5xl grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="mx-auto max-w-5xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {paidOffers.map((offer) => {
             const isAnnual = offer.id === '1-an';
             return (
