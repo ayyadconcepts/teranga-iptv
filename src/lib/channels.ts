@@ -42,7 +42,7 @@ export const channelCategories: ChannelCategory[] = [
       'Multisports EN',
       'Football Africain',
       'Championnats Internationaux',
-      'Coupes d\\'Europe',
+      "Coupes d'Europe",
       'Sports Extrêmes',
       'Rugby International',
       'Golf & Équitation',
