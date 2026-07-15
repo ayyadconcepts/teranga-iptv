@@ -5,6 +5,7 @@ export interface ChannelCategory {
   channels: string[];
 }
 
+export const channelCategories: ChannelCategory[] = [
   {
     id: 'tv-direct',
     title: 'Télévision en Direct',
