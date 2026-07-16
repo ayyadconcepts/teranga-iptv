@@ -192,12 +192,12 @@ export default function InstallationGuide() {
         {/* Tabs + Content */}
         <div className="mx-auto max-w-4xl">
           {/* Tab bar */}
-          <div className="flex flex-wrap border-b border-white/10">
+          <div className="flex overflow-x-auto border-b border-white/10 scrollbar-hide no-scrollbar">
             {tabs.map((tab) => (
               <button
                 key={tab.key}
                 onClick={() => setActiveTab(tab.key)}
-                className={`flex items-center gap-2 px-5 py-3.5 text-sm font-medium transition-all border-b-2 -mb-px ${
+                className={`flex items-center justify-center gap-2 px-5 py-3.5 text-sm font-medium transition-all border-b-2 -mb-px whitespace-nowrap shrink-0 sm:flex-none ${
                   activeTab === tab.key
                     ? 'border-vert text-vert'
                     : 'border-transparent text-muted-light hover:text-white hover:border-white/30'

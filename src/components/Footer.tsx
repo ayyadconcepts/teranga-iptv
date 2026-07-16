@@ -112,8 +112,13 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-10 border-t border-border pt-6 text-center text-xs text-muted">
+        <div className="mt-10 border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted">
           <p>© {new Date().getFullYear()} IPTV Sénégal. Tous droits réservés.</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/conditions-utilisation" className="transition-colors hover:text-foreground">Conditions d'utilisation</Link>
+            <Link href="/politique-de-confidentialite" className="transition-colors hover:text-foreground">Confidentialité</Link>
+            <Link href="/droits-dauteur" className="transition-colors hover:text-foreground">Droits d'auteur (DMCA)</Link>
+          </div>
         </div>
       </div>
     </footer>
